@@ -1,0 +1,80 @@
+/* global styling */
+
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+
+body{
+    background-color:#f58b57; 
+    font-family: "Times New Roman", Times, serif;
+}
+  
+p{
+    margin: auto;
+    border: 2px solid #412517;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+h1{
+    margin: auto;
+    border: 2px solid #412517;
+    height: 80px;
+    width: 300px;
+    color: black;
+    text-align: center;
+}
+  
+img{
+    padding: 50px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 75%;
+    transform: scaleX(-1)
+}
+  
+iframe{
+    display: block;
+    margin: 0% auto;
+    border: 2px solid #a75f3b;
+    border-radius: 2px;
+}
+  
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* local styling */
+#wrapper{
+    box-shadow: #412517; /*adds shadows to different div elements*/
+    text-align: center;
+}
+
+.Runaway-Breakdown{
+    border: 2px solid #e6dfcc;
+}
+
+.Heartless-Breakdown{
+    border: 2px solid #e6dfcc;
+    padding: 20px;
+}
+
+.Father-Stretch-Breakdown{
+    border: 2px solid #e6dfcc;
+    direction: ltr; /*Set the text direction from left to right*/
+}
+
+.Flashing-Lights-Breakdown{
+    border: 2px solid #e6dfcc;
+    word-spacing: 2px; /*Specify that the space between words in p elements should be 2 pixels*/
+}
